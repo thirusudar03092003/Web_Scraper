@@ -1,0 +1,92 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.price-checker {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.url-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.check-button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.check-button:disabled {
+  background: #ccc;
+}
+
+.error {
+  color: #dc3545;
+  margin-top: 10px;
+}
+
+.result {
+  background: white;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.result h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* New styles for product title */
+.product-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+  line-height: 1.4;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.price-value {
+  font-size: 24px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.store-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.amazon {
+  background-color: #ff9900;
+  color: white;
+}
+
+.flipkart {
+  background-color: #2874f0;
+  color: white;
+}
